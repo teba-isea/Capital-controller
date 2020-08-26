@@ -1,0 +1,103 @@
+img {
+  pointer-events: none;
+}
+
+.carousel-img {
+  width: auto;
+  height: 80vh;
+  overflow: hidden !important;
+  object-fit: contain;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.carousel-img-sm {
+  width: auto;
+  height: 30vh;
+  overflow: hidden !important;
+  object-fit: contain;
+}
+
+.hero {
+  margin-top: 6rem;
+  font-size: xx-large;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: rgba(65, 65, 65, 0.6);
+  z-index: 9999999;
+}
+
+.hero h1 {
+  font-size: 4rem;
+}
+
+.bg-opace {
+  background: rgba(122, 122, 122, 0.5);
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  margin: 0px 10px;
+  border: none !important;
+}
+
+.nav-link:hover {
+  background: #606163 !important;
+}
+
+.jumbotron {
+  border: transparent;
+  border-radius: 7px;
+  overflow: hidden;
+  box-shadow: rgba(26, 26, 26, 0.5) 8px 8px 10px 1px !important;
+}
+
+.carousel-item {
+  overflow: hidden;
+}
+
+.trophy {
+  background: url(../icons/trophy.svg) no-repeat;
+  width: 25%;
+  height: 25%;
+}
+
+.icons{
+  fill: #f9a916;
+  width: 100px;
+  height:100px
+}
+
+.btn-outline-warning{
+  border: 1px solid #f99b16;
+}
+
+.btn-outline-warning:hover{
+  border: 1px solid transparent;
+}
+
+.bg-warning{
+  background: #f9a916;
+}
+
+.btn-dark{
+background: #3a3f44;
+}
+
+.btn-dark:hover {
+  background: #535558 !important;
+}
+
+.btn-outline-dark{
+  border: 1px solid #3a3f44;
+}
+
+.btn-outline-dark:hover{
+  border: 1px solid transparent;
+}
