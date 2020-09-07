@@ -3,3 +3,6 @@ Small project that demonstrates the exchange of data between various components 
 
 You can Preview it right now by entering [here](https://capital-controller.netlify.app/).
 
+![Preview](./preview.png)
+
+
